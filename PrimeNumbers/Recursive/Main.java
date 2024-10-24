@@ -10,7 +10,7 @@ public class Main {
         System.out.print("Enter a number to get all prime numbers up to it: ");
         int n = sc.nextInt();
 
-        List<Integer> primeNumbers = PrimeNumberChecker.getPrimesUpTo(n, 2, new ArrayList<>());
+        List<Integer> primeNumbers = PrimeNumberRecursive.getPrimesUpTo(n, 2, new ArrayList<>());
         System.out.println("Prime numbers up to " + n + ": " + primeNumbers);
     }
 }
