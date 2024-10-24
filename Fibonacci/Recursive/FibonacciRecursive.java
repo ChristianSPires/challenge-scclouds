@@ -1,4 +1,4 @@
-public final class FibonacciChecker {
+public final class FibonacciRecursive {
     public static int getIndexInFibonacci(int n) {
         if (n < 0) {
             throw new IllegalArgumentException("Must be greater than 0");

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public final class PrimeNumberChecker {
+public final class PrimeNumberLinear {
 
     private static boolean isPrime(int n) {
         for (int i = 2; i < n; i++) {

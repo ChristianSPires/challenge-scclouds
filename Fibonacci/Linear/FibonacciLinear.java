@@ -1,4 +1,4 @@
-public final class FibonacciChecker {
+public final class FibonacciLinear {
 
     public static int getIndexInFibonacci(int n) {
         if (n < 0) {
